@@ -1,0 +1,229 @@
+* {
+    
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: sans-serif
+
+}
+a{
+    text-decoration: none;
+    color: rgb(193, 116, 165);
+}
+li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+    background-color: black;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 20px;
+}
+#header .header__logo {
+    background-color: rgb(249, 228, 228);
+}
+#header .header__menu1 ul,
+#header .header__menu2 ul {
+    display: flex;
+    list-style: none;
+}
+#header .header__menu1 ul li a,  
+#header .header__menu2 ul li a {
+    text-decoration: none;
+    color: rgb(245, 235, 235);
+    background-color: rgb(200, 35, 95);
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+#header .header__menu1 ul li a:hover,  
+#header .header__menu2 ul li a:hover {
+    background-color: rgb(81, 71, 74);
+}
+.main__Home { 
+    background-image: url(../imagenes/PHOTO-2022-02-07-14-55-26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+.main__Home .intro__info {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(233, 236, 240);
+    background-color: rgba(0, 0, 0, 0.648);
+
+}
+
+
+
+
+
+
+
+.main{
+    height: 74vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.main__Productos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 75vh;
+    justify-content: center;
+    background-color: rgb(253, 156, 145);
+}
+.main__Productos iframe{
+    width: 60vw;
+    height: 50vh;
+    border: 3px solid rgb(12, 6, 6);
+    
+}
+
+
+
+
+form{
+    max-width: 600px;
+    border: 3px solid rgb(6, 6, 6);
+    margin: 2rem auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 1px solid rgb(49, 45, 45);
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    background-color: #040404;
+}
+.footer__Logotipo{
+    color: rgb(255, 255, 255);
+    margin: 1rem auto;
+}
+.footer .footer__Nav{
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+}
+.footer .footer__Nav li{
+    margin: 0 1rem;
+}
+.footer img{
+    width: 60px;
+    height: 60px;
+    margin: 1rem auto 0;
+    border-radius: 100%;
+}
+.footer .footer__Redes{
+    color: rgb(41, 153, 138);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(181, 174, 174);
+}
+.footer .footer__Redes aside{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 2rem;
+}
+
+
+.grid-container {
+display: grid;
+background-color: rgb(226, 98, 86);
+padding: 10px;
+grid-template-columns: repeat(2);
+grid-template-rows: repeat(3);
+gap: 10px;
+
+
+}
+
+
+.grid-container .grid-item {
+background-color: rgb(178, 119, 119);
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.grid-container .grid-item:nth-child(1) {
+background-color: rgb(185, 202, 202);
+grid-column: 1/3;
+grid-row: 1/3;
+
+
+}
+
+.grid-container .grid-item.dos {
+background-color: rgb(225, 237, 225);
+
+
+
+
+}
+
+.box-responsive {
+
+width: 100%;
+height: 200px;
+padding: 10px;
+
+
+}
+
+@media (max-width: 600px) {
+
+.box-responsive {
+
+    background-color: tomato;
+
+}
+
+}
