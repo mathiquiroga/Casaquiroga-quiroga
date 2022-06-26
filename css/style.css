@@ -34,7 +34,7 @@ li{
     padding: 20px;
 }
 #header .header__logo {
-    background-color: rgb(249, 228, 228);
+    background-color: rgb(198, 125, 125);
 }
 #header .header__menu1 ul,
 #header .header__menu2 ul {
@@ -44,7 +44,7 @@ li{
 #header .header__menu1 ul li a,  
 #header .header__menu2 ul li a {
     text-decoration: none;
-    color: rgb(245, 235, 235);
+    color: rgb(204, 131, 131);
     background-color: rgb(200, 35, 95);
     margin: 0 10px;
     padding: 10px;
@@ -98,7 +98,7 @@ li{
     text-align: center;
     height: 75vh;
     justify-content: center;
-    background-color: rgb(253, 156, 145);
+    background-color: rgb(189, 74, 61);
 }
 .main__Productos iframe{
     width: 60vw;
@@ -136,10 +136,10 @@ form{
     position: relative;
     bottom: 0%;
     width: 100%;
-    background-color: #040404;
+    background-color: #0a0909;
 }
 .footer__Logotipo{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 248, 248);
     margin: 1rem auto;
 }
 .footer .footer__Nav{
@@ -161,19 +161,20 @@ form{
     padding: 1rem 0;
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid rgb(181, 174, 174);
+    border-top: 1px solid rgb(211, 198, 198);
 }
 .footer .footer__Redes aside{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     gap: 2rem;
+
 }
 
 
 .grid-container {
 display: grid;
-background-color: rgb(226, 98, 86);
+background-color: rgb(3, 3, 3);
 padding: 10px;
 grid-template-columns: repeat(2);
 grid-template-rows: repeat(3);
